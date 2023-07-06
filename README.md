@@ -9,7 +9,9 @@ This dataset contains information on default payments, demographic factors, cred
 # Project Overview
 
 Exploratory Data Analysis. 
+
 Machine Learning Modeling.
+
 Machine Learning Model explanation using SHAP
 
 # Machine Learning Models Used:
