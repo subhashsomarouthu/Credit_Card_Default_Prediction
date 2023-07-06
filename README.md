@@ -15,8 +15,11 @@ Machine Learning Model explanation using SHAP
 # Machine Learning Models Used:
 
 Logistic Regression
+
 Random Forest
+
 SVM
+
 XGBoost
 
 
