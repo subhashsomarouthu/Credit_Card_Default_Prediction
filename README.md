@@ -1,6 +1,6 @@
 ## AlmaBetter Verfied Project - [AlmaBetter School](https://www.almabetter.com/)
 
-# Credit Card Fraud Detection
+# Credit Card Default Prediction
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -46,7 +46,7 @@ Model performance was assessed using the following evaluation metrics:
 
 To execute this project and make predictions for credit card payment defaults, follow these steps:
 
-1. Open the Jupyter Notebook file named `Credit_Card_Fraud_Detection.ipynb`.
+1. Open the Jupyter Notebook file named `Credit_Card_Default_Prediction.ipynb`.
 2. Execute the notebook cell by cell to load and preprocess the data, train the machine learning models, and make predictions.
 3. The notebook provides detailed insights into data exploration, feature engineering, model training, and evaluation.
 
