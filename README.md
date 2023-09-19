@@ -1,43 +1,64 @@
-# Credit_Card_Default_Prediction
-Predicting Credit Card Payment Defaulters using Classification Machine Learning Models
+## AlmaBetter Verfied Project - [AlmaBetter School](https://www.almabetter.com/)
 
-The purpose of this project is to develop a machine learning model which predicts credit card default payments for next month.
+# Credit Card Fraud Detection
 
-# Dataset
-This dataset contains information on default payments, demographic factors, credit limit, history of payments, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Dataset](#dataset)
+3. [Models Used](#models-used)
+4. [Evaluation Metrics](#evaluation-metrics)
+5. [How to Execute](#how-to-execute)
+6. [Conclusion and Future Considerations](#conclusion-and-future-considerations)
 
-# Project Overview
+## Introduction
 
-Exploratory Data Analysis. 
+This project aims to predict the likelihood of customer defaulting on their credit card payments in Taiwan. Predicting the estimated probability of default is valuable for risk management purposes, providing insights beyond binary classification.
 
-Machine Learning Modeling.
+**Business Objective:**
 
-Machine Learning Model explanation using SHAP
+The goal is to predict the likelihood of customers defaulting on their credit card payments in Taiwan. This prediction is essential for risk management purposes.
 
-# Machine Learning Models Used:
+## Dataset
 
-Logistic Regression
+The dataset used in this project contains valuable information related to credit card payments, customer demographics, and payment history. It serves as the foundation for developing predictive models for credit card payment defaults. It can be found in this [Link](https://docs.google.com/spreadsheets/d/1WSzAlD27mGG99sqCRERbHWOxZiyr8TUq/edit?usp=sharing&ouid=114817895883394277771&rtpof=true&sd=true)
 
-Random Forest
+## Models Used
 
-SVM
+To achieve our goal, I explored and evaluated several machine learning models:
 
-XGBoost
+1. **Logistic Regression:** A fundamental model for binary classification tasks, providing insights into the probability of credit card defaults.
 
+2. **Random Forest:** A powerful ensemble model that combines multiple decision trees to make accurate predictions. Random Forest excels in capturing complex patterns in the data.
 
-# Model Comparison
+3. **Support Vector Machine (SVM):** A model capable of finding the optimal hyperplane to separate data points, often used for binary classification tasks.
 
-In these four models Random Forest Classifier yielded promising results. It achieved a recall of 81%, indicating its ability to correctly identify a high percentage of defaulters. The f1 score, which considers both precision and recall, was 84%, indicating a good balance between the two metrics. The KS statistic, measuring the model's ability to distinguish between positive and negative classes, was 70%. These results were consistent across both the train and test datasets, indicating a reliable performance of the model.While Random Forest performed well, the tuned XGBoost model demonstrated higher precision and f1 score. However, it exhibited signs of overfitting, making it less suitable for deployment. SVM and Logistic Regression models yielded lower scores compared to Random Forest.
+4. **XGBoost Classifier:** A gradient boosting algorithm known for its high predictive accuracy and versatility.
 
+## Evaluation Metrics
 
-# Limitations
-Best model Random Forest can only detect 81% of defaulters.
-Used only 30,000 records, more data would lead to better prediction
-If business want precission to be high, then XGBoost can be used rather than Random Forest
+Model performance was assessed using the following evaluation metrics:
 
+- **Recall:** A crucial metric for identifying defaulters, measuring the ability to correctly identify positive cases.
+- **F1 Score:** A balanced metric considering both precision and recall, providing an overall measure of model performance.
+- **KS Statistic:** A metric measuring the model's ability to distinguish between positive and negative classes, important for credit risk assessment.
 
-# Future Work
-Other models could perform better.
-Get more computational resources to tune Random Forest , SVM and XGBoost parameters.
-Income of the person could have been more important feature, if given in the dataset
+## How to Execute
+
+To execute this project and make predictions for credit card payment defaults, follow these steps:
+
+1. Open the Jupyter Notebook file named `Credit_Card_Fraud_Detection.ipynb`.
+2. Execute the notebook cell by cell to load and preprocess the data, train the machine learning models, and make predictions.
+3. The notebook provides detailed insights into data exploration, feature engineering, model training, and evaluation.
+
+## Conclusion and Future Considerations
+
+In conclusion, this project successfully developed a machine learning model for credit card payment default prediction. The project addressed the challenge of imbalanced data, explored important features, and evaluated multiple models. The chosen Random Forest model provides reliable predictions, and with ongoing monitoring and evaluation, it can be effectively deployed to minimize the risk of credit card payment defaults.
+
+Future considerations for enhancing this project include:
+
+- Continuous monitoring and model updating to adapt to changing patterns.
+- Exploring additional data sources to improve predictive accuracy.
+- Implementing real-time fraud detection systems for proactive risk management.
+
+Feel free to reach out for any concerns [LinkedIn](www.linkedin.com/in/subhash-somarouthu).
 
