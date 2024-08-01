@@ -1,4 +1,3 @@
-## AlmaBetter Verfied Project - [AlmaBetter School](https://www.almabetter.com/)
 
 # Credit Card Default Prediction
 
